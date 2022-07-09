@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.afinal">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final">
+        <activity
+            android:name=".surfaceview2"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkemerdekaanindonesiavideo"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkemerdekaanindonesia"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkerajaanislamvideo"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkerajaanislam"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkerajaanbuddhavideo"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkerajaanbuddha"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkerajaanhinduvideo"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkerajaanhindu"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkolonialismevideo"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahkolonialisme"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpangkatvideo"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpangkat"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpembagianvideo"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpembagian"
+            android:exported="true" />
+        <activity
+            android:name=".mtkperkalianvideo"
+            android:exported="true" />
+        <activity
+            android:name=".mtkperkalian"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpenguranganvideo"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpengurangan"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpertambahanvideo"
+            android:exported="true" />
+        <activity
+            android:name=".mtkpertambahan"
+            android:exported="true" />
+        <activity
+            android:name=".kimiakesetimbanganvideo"
+            android:exported="true" />
+        <activity
+            android:name=".kimiakesetimbangan"
+            android:exported="true" />
+        <activity
+            android:name=".kimiakalorvideo"
+            android:exported="true" />
+        <activity
+            android:name=".kimiakalor"
+            android:exported="true" />
+        <activity
+            android:name=".kimialajureaksivideo"
+            android:exported="true" />
+        <activity
+            android:name=".kimialajureaksi"
+            android:exported="true" />
+        <activity
+            android:name=".kimiaminyakvideo"
+            android:exported="true" />
+        <activity
+            android:name=".kimiaminyak"
+            android:exported="true" />
+        <activity
+            android:name=".kimiahidrokarbonvideo"
+            android:exported="true" />
+        <activity
+            android:name=".kimiahidrokarbon"
+            android:exported="true" />
+        <activity
+            android:name=".fisikatermodinamikavideo"
+            android:exported="true" />
+        <activity
+            android:name=".fisikatermodinamika"
+            android:exported="true" />
+        <activity
+            android:name=".fisikakalorvideo"
+            android:exported="true" />
+        <activity
+            android:name=".fisikakalor"
+            android:exported="true" />
+        <activity
+            android:name=".fisikafluidavideo"
+            android:exported="true" />
+        <activity
+            android:name=".fisikafluida"
+            android:exported="true" />
+        <activity
+            android:name=".fisikaelastisitasvideo"
+            android:exported="true" />
+        <activity
+            android:name=".fisikaelastisitas"
+            android:exported="true" />
+        <activity
+            android:name=".fisikarotasivideo"
+            android:exported="true" />
+        <activity
+            android:name=".fisikarotasi"
+            android:exported="true" />
+        <activity
+            android:name=".surfaceview"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiasuratvideo"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiasurat"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiadramavideo"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiadrama"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiaprosedurvideo"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiaprosedur"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiacerpenvideo"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiacerpen"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiakausalitasvideo"
+            android:exported="true" />
+        <activity
+            android:name=".indonesiakausalitas"
+            android:exported="true" />
+        <activity
+            android:name=".biologisistempencernaanvideo"
+            android:exported="true" />
+        <activity
+            android:name=".biologisistemsirkulasivideo"
+            android:exported="true" />
+        <activity
+            android:name=".biologisistemgerakvideo"
+            android:exported="true" />
+        <activity
+            android:name=".biologijaringanvideo"
+            android:exported="true" />
+        <activity
+            android:name=".biologiselvideo"
+            android:exported="true" />
+        <activity
+            android:name=".biologisistempencernaan"
+            android:exported="true" />
+        <activity
+            android:name=".biologisistemsirkulasi"
+            android:exported="true" />
+        <activity
+            android:name=".biologisistemgerak"
+            android:exported="true" />
+        <activity
+            android:name=".biologijaringan"
+            android:exported="true" />
+        <activity
+            android:name=".biologisel"
+            android:exported="true" />
+        <activity
+            android:name=".indonesialist"
+            android:exported="true" />
+        <activity
+            android:name=".fisikalist"
+            android:exported="true" />
+        <activity
+            android:name=".sejarahlist"
+            android:exported="true" />
+        <activity
+            android:name=".kimialist"
+            android:exported="true" />
+        <activity
+            android:name=".biolist"
+            android:exported="true" />
+        <activity
+            android:name=".mtklist"
+            android:exported="true" />
+        <activity
+            android:name=".loading"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
